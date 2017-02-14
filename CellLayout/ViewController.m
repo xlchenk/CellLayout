@@ -91,8 +91,6 @@
     NSLog(@"cell高度：：%f",h);
     //将获取的高度缓存起来
     [cellHeightCalculator cacheHeitht:h withCalculateHeightModel:model];
-    
-    
     return h;
 }
 
