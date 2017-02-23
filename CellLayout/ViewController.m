@@ -26,7 +26,6 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     [self initData];
     [self createTableView];
 }
@@ -71,7 +70,6 @@
     [cell setDataModel:model indexPath:indexPath];
     return cell;
 }
-
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     InfoDataModel * model = [self.dataSource objectAtIndex:indexPath.row];
